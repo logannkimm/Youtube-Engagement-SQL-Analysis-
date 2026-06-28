@@ -1,7 +1,7 @@
 # Youtube Engagement SQL Analysis
 
 ## Project Objective
-This project utilizes SQL to query and analyze a dataset of trending U.S. YouTube videos. The goal is to explore user engagement by evaluating how views, likes, and comment counts are distributed across top-performing content.
+This small SQL project uses SQL to filter out columns in order to analyze videos based on likes, comment counts, views, etc. 
 
 ## Tech Stack
 * **Language:** SQL
@@ -9,6 +9,6 @@ This project utilizes SQL to query and analyze a dataset of trending U.S. YouTub
 
 ## Queries Documented
 The repository includes a structured SQL script (`engagement_analysis.sql`) that covers:
-1. **Engagement Ranking:** Sorting trending videos by total like counts to surface peak audience validation.
-2. **Top-Tier Filtering:** Extracting the top 10 most commented-on videos to identify high-discussion content.
-3. **Data Segmentation:** Utilizing offsets to isolate specific benchmarks, such as identifying the 100th most commented-on video.
+1. **Engagement Ranking:** Sorting trending videos by total like counts to analzye trends in high engaged content.
+2. **Top-Tier Filtering:** Identified the top 10 most commented-on videos.
+3. **Data Segmentation:** Utilizing offsets to isolate specific benchmarks, such as starting at the 100th most commented-on video.
